@@ -28,7 +28,7 @@ if(!empty($_POST["send"])) {
 ?>
 
 <div class="form-container">
-  <form name="contactFormEmail" method="post">
+  <form name="contactFormEmail" action="#" method="post">
     <div class="input-row">
       <label>Name <em>*</em></label> 
       <input type="text" name="userName" required id="userName"> 
@@ -39,7 +39,7 @@ if(!empty($_POST["send"])) {
     </div>
     <div class="input-row">
       <label>Phone <em>*</em></label> 
-      <input type="text" name="userPhone" required id="userPhone">
+      <input type="tel" name="userPhone" required id="userPhone">
     </div>
     <div class="input-row">
       <label>Message <em>*</em></label> 
